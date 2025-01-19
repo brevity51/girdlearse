@@ -1,12 +1,13 @@
 // Initialize Firebase
 const firebaseConfig = {
-apiKey: "AIzaSyA8lnkl-LBnUFGFBwa8CYtYPOr3qJiAhfk",
-authDomain: "savpalestine.firebaseapp.com",
-databaseURL: "https://savpalestine-default-rtdb.firebaseio.com",
-projectId: "savpalestine",
-storageBucket: "savpalestine.appspot.com",
-messagingSenderId: "724458243697",
-appId: "1:724458243697:web:ed5a618889052e4a023dd0"
+  apiKey: "AIzaSyByKS3ilSjqGYdXFyU9P5FAxun04RwR-t4",
+  authDomain: "psychic-broccoli.firebaseapp.com",
+  databaseURL: "https://psychic-broccoli-default-rtdb.firebaseio.com",
+  projectId: "psychic-broccoli",
+  storageBucket: "psychic-broccoli.firebasestorage.app",
+  messagingSenderId: "742458382450",
+  appId: "1:742458382450:web:ffe4d04f2490b230718aeb",
+  measurementId: "G-TY6G2Q64HD"
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
